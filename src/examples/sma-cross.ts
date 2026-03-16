@@ -3,7 +3,7 @@ import type { Bar } from "../core/types.js";
 import { SmaCrossStrategy } from "../strategies/sma-cross.js";
 
 function makeSyntheticBars(): Bar[] {
-  // Deterministic synthetic series (no Math.random) for reproducible examples.
+  // Deterministic synthetic series.
   const bars: Bar[] = [];
   let price = 100;
   let ts = Date.UTC(2025, 0, 1);

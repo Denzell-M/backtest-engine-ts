@@ -56,7 +56,3 @@ Where `halfSpread` is configurable (bps).
 
 - v1 uses market orders and fills them immediately on each bar
 - partial fills, limit orders, and more realistic bar-based execution can be added later
-
-## License
-
-UNLICENSED (no license specified).
