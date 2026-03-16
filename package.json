@@ -1,0 +1,28 @@
+{
+  "name": "backtest-engine-ts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal event-driven backtesting engine for single-instrument OHLC bars.",
+  "scripts": {
+    "dev": "tsx src/examples/sma-cross.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "packageManager": "pnpm@10.18.3",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vitest": "^4.1.0"
+  }
+}
