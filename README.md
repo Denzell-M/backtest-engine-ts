@@ -2,7 +2,7 @@
 
 A **minimal event-driven backtesting engine** in TypeScript for **single-instrument OHLC bars**.
 
-The goal is not “maximize Sharpe in a demo”—it’s to build **trustworthy infrastructure**:
+The goal is to build **trustworthy infrastructure**:
 
 - deterministic replay (same inputs + config → same outputs)
 - explicit execution assumptions (mid-fill vs spread-cross)
