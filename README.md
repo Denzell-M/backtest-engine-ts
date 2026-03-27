@@ -9,7 +9,7 @@ The goal is to build **trustworthy infrastructure**:
 - simple accounting (cash/position/PnL)
 - testable boundaries
 
-## Quickstart
+<h2> Quickstart </h2>
 
 ```bash
 pnpm install
