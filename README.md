@@ -18,21 +18,21 @@ pnpm dev
 
 This runs the example in `src/examples/sma-cross.ts`.
 
-## Run tests
+<h2> Run tests </h2>
 
 ```bash
 pnpm test
 ```
 
-## Core concepts
+<h2> Core concepts </h2>
 
-### Data model
+<h3> Data model </h3>
 
 - `Bar`: OHLC (optional volume)
 - `Signal`: strategy intent
 - `Order` → `Fill`: execution model output
 
-### Execution models (v1)
+<h3> Execution models (v1) </h3>
 
 - **Mid-fill**: debugging baseline (uses HL2 by default)
 - **Spread-cross**: default realism baseline for OHLC
@@ -41,7 +41,7 @@ pnpm test
 
 Where `halfSpread` is configurable (bps).
 
-## Project layout
+<h2> Project layout </h2>h2>
 
 - `src/core/`
   - `types.ts` domain types
@@ -52,7 +52,7 @@ Where `halfSpread` is configurable (bps).
 - `src/examples/` runnable scripts
 - `src/test/` tests
 
-## Notes / limitations
+<h2> Notes / limitations </h2>
 
 - v1 uses market orders and fills them immediately on each bar
 - partial fills, limit orders, and more realistic bar-based execution can be added later
